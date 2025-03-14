@@ -1,0 +1,115 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 5, 2024, 4:47:30 PM
+    Author     : amade
+*/
+
+.scene{
+     -fx-background-color: #D8EBFF;
+}
+
+.grid-pane {
+    -fx-background-color: #D8EBFF;
+    -fx-padding: 20;
+    -fx-border-width: 2;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0, 0, 1);
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #CCCCCC;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #005BB5;
+}
+
+.button:pressed {
+    -fx-background-color: #003F7F;
+}
+#logoImg {
+    -fx-fit-width: 20px; /* Set the width of the image */
+    -fx-fit-height: 20px; /* Set the height of the image */
+    -fx-border-radius: 20px; /* Set the border radius */
+    -fx-border-color: black; /* Set the border color */
+    -fx-border-width: 2px; /* Set the border width */
+}
+#menu-display{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 5;
+    -fx-margin: 5;
+    -fx-background-color: white; /* Set background color to white */
+    -fx-border-radius: 20px; /* Rounded corners for border */
+    -fx-background-radius: 20px; /* Rounded corners for background */
+    -fx-padding: 15px; /* Inner padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 1); /* Drop shadow effect */
+    -fx-border-color: #E0E0E0; /* Light grey border color */
+    -fx-border-width: 0.2px; /* Border width */
+}
+#add-button{
+    -fx-padding: 2 0 2 0;
+}
+#quantity-spinner{
+    -fx-margin-left: 5px;
+}
+#menu-image{
+    -fx-border-radius: 30px;
+    -fx-padding:10px;
+    -fx-background-radius: 5;
+}
+ #back-button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+}
+ #backMENU-button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+}
+
+#history-title {
+  -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+       -fx-font-size: 34px;
+}
+#history-title {
+  -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+       -fx-font-size: 34px;
+}
+#order-title {
+  -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+       -fx-font-size: 34px;
+}
